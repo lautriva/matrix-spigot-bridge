@@ -1,0 +1,54 @@
+# MatrixSpigotBridge configuration file
+# Note: if you want to use symbols / emojis, please save this file as UTF-8
+
+# Matrix server / bot account configuration
+matrix:
+# Matrix homeserver base url
+    server: 'https://example.com:8448'
+    
+# Matrix room used to communicate with players
+# Note: Do not use room alias (#roomname:example.com)
+    room_id: '!fdsgfdKJHGKujys:example.com'
+
+# Automatic account used to post and read messages in the room
+# Once access token have been generated after first start in access.yml,
+#   you can safely set the password here to '' value if you don't want password stored in clear
+    user_id: '@mcbot:example.com'
+    password: 'y0urPa55w0rd'
+
+# Seconds to wait between polls to get messages from matrix server
+    poll_delay: 2
+    
+# Message formats
+# You can have many more placeholders than those provided
+#   if you use PlaceholderAPI and have set common.usePlaceholderApi to true
+#
+# An empty value won't send messages for the related event
+format:
+# Players related events (join, quit, chat, death)
+# {PLAYERNAME} is the displayed player name, {MESSAGE} is the default event message
+# For chat, {MESSAGE} is the message sent by user
+    player:
+        join: '+ {MESSAGE}'
+        quit: '- {MESSAGE}'
+        death: 'X {MESSAGE}'
+        chat: '> {PLAYERNAME}: {MESSAGE}'
+        
+# Message sent from matrix room
+# {MATRIXNAME} is the matrix user name, {MESSAGE} is the message sent
+    matrix_chat: '[Matrix] {MATRIXNAME}: {MESSAGE}'
+    
+# Server events (start stop)
+    server:
+        start: 'Server start'
+        stop: 'Server stop'
+
+common:
+# Set this value to false if you want the plugin to always fetch displaynames from matrix server
+# True will let the server remember fetched diplaynames until Spigot restart
+    cacheMatrixDisplaynames: true
+
+# If you like placeholders, we do too! 
+# Set this value to true to use placeholders in all formats messages 
+# requires PlaceholderApi if set to true!
+    usePlaceholderApi: false

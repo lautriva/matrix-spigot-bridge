@@ -1,0 +1,11 @@
+# Project files
+.project
+.settings
+.classpath
+
+# Private folder
+private
+
+# Compiled libraries / files
+lib
+target

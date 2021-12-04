@@ -1,0 +1,5 @@
+name: MatrixSpigotBridge
+main: re.dbn.ked.msb.MatrixSpigotBridge
+version: 1.0
+api-version: 1.13
+softdepend: [PlaceholderAPI]
