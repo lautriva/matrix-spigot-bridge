@@ -16,3 +16,6 @@ Latest build + More informations here https://www.spigotmc.org/resources/matrixs
 
 ## Building Requisites
 org.json
+
+## Working Minecraft Versions
+1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19, 1.20
