@@ -1,3 +1,11 @@
+## Project abandoned, looking for a fork
+
+I don't have time to develop anymore on this plugin, I'm looking for someone to make a fork
+
+See [this](https://github.com/lautriva/matrix-spigot-bridge/issues/9) issue for more details
+
+--------
+
 [![Logo](https://github.com/dav64/matrix-spigot-bridge/raw/master/logo.jpg)](https://github.com/dav64/matrix-spigot-bridge/raw/master/logo.jpg)
 
 # MatrixSpigotBridge
