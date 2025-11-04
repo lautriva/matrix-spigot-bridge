@@ -1,8 +1,8 @@
-## Project abandoned, looking for a fork
+## Project abandoned and forked
 
-I don't have time to develop anymore on this plugin, I'm looking for someone to make a fork
+As I stopped to play Minecraft and anything about Java development, I have decided to stop developing this plugin (see [this](https://github.com/lautriva/matrix-spigot-bridge/issues/9) issue for more details)
 
-See [this](https://github.com/lautriva/matrix-spigot-bridge/issues/9) issue for more details
+You can take a look [this](https://github.com/pseudosmp/matrix-spigot-bridge) fork by Ilamparithi
 
 --------
 
